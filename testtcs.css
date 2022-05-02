@@ -1,0 +1,144 @@
+.sectionId {
+	padding: 15px 10px 5px 10px;
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+#heroImage {
+	width: calc(100%-20px);
+	border-radius: 15px;
+	padding: 5px 10px;
+}
+
+#articles {
+	width: 100%;
+}
+
+#articleID {
+	padding: 10px;
+
+}
+
+.section {
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 0 5px rgb(0 0 0 / 40%) inset, 0 1px 0 rgb(255 255 255 / 10%);
+	width: calc(50% - 4%);
+	display: inline-grid;
+	margin-top: 0 !important;
+	margin: 1%;
+    max-height: 534px;
+    min-height: 534px;
+}
+
+.articleId {
+	display: none;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.width80 {
+	width: 80%;
+}
+
+.width20 {
+	width: 20%;
+}
+
+.dottedBorder {
+	width: 1 00%;
+	height: 1px !important;
+	border-style: dotted;
+	border-width: thin;
+	margin: 1% 0 !important;
+}
+
+.arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	margin-bottom: 3px;
+}
+
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.flex-container {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border: 1px solid silver;
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.wrap {
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.flex-item {
+	background: tomato;
+	padding: 5px;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+
+	line-height: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+
+.paddingleft {
+	padding-left: 10px;
+}
+
+.borderbottom {
+	border-bottom: 1px solid rgb(0 0 0 / 5%);
+}
+#sectionHeader{
+	font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+	text-transform: uppercase;
+}
+.articleIdForSection{
+	display:none;
+}
+.errorMessage {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    color: red;
+    font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.updateImage{
+	width: 30%;
+	height: 50px;
+}
+#notificationContent{
+	padding: 10px;
+}
+.notContent{
+	display: flex;
+    font-size: 12px;
+    padding: 15px 0;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.25);
+}
+    
